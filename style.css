@@ -514,6 +514,10 @@ hr {
         justify-content: space-between;
     }
 
+    .tech-mahindra{
+        margin-right: 3px;
+    }
+
     .companies-img {
         display: flex;
         justify-content: center;
