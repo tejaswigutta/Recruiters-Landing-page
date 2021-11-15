@@ -152,6 +152,7 @@ hr {
     width: 25rem;
 }
 
+
 .techM-reddys {
     display: flex;
 }
@@ -485,10 +486,6 @@ hr {
         align-items: center;
     }
 
-    .partners {
-        text-align: center;
-    }
-
     #our-partners {
         font-weight: 600;
         font-size: 1.5rem;
@@ -507,10 +504,11 @@ hr {
         color: #1E135E;
     }
 
-    /* .partners {
-        margin-right: 10%;
-        width: 25rem;
-    } */
+    .partners {
+        margin-right: auto;
+        width: auto;
+        text-align: center;
+    }
 
     .techM-reddys {
         display: flex;
