@@ -376,7 +376,8 @@ hr {
 }
 
 
-//mobile view
+/* mobile view */
+
 
 @media (max-width:571px) {
     .container {
