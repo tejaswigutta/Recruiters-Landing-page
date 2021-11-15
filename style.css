@@ -1,0 +1,625 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.container {
+    padding: 2rem 6.25rem;
+}
+
+/* .human-resource p,
+div,
+hr {
+    margin-bottom: 1rem;
+} */
+
+.byjus-logo {
+    text-align: center;
+}
+
+.byjus-logo img {
+    width: 190.28px;
+    height: 70.48px;
+}
+
+.human-resource>p:first-child {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.43rem;
+    color: #052A4E;
+    text-align: center;
+}
+
+.human-resource>p:nth-child(2) {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #052A4E;
+    text-align: center;
+}
+
+.branches {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.branches div {
+    margin-bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 0.5rem;
+}
+
+.branches>div:first-child {
+    border-bottom: 4px solid #1179EF;
+}
+
+.branches div {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.37rem;
+    color: #052A4E;
+}
+
+.CS-imgs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.human-resource>p:nth-child(6) {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.43rem color: #052A4E;
+    text-align: center;
+}
+
+.human-resource>p:nth-child(7) {
+    font-size: 1.25rem;
+    line-height: 180%;
+    text-align: center;
+    color: #052A4E;
+    text-align: center;
+}
+
+.tech-project-img,
+.core-project-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 22.6rem;
+    min-width: 40.31rem;
+}
+
+.core-project-img {
+    background-image: url("./Assets/core-project.png");
+}
+
+.tech-project-img {
+    background-image: url("./Assets/tech-project.png");
+}
+
+.tech-core-project {
+    background-color: #F6F9FF;
+}
+
+.tech-project,
+.core-project {
+    display: flex;
+}
+
+.core-project-text>p:first-child,
+.tech-project-text>p:first-child {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 180%;
+    color: #052A4E;
+}
+
+.core-project-text>p:nth-child(2),
+.tech-project-text>p:nth-child(2) {
+    font-size: 1.25rem;
+    line-height: 180%;
+    color: #413F4E;
+}
+
+.partnership {
+    background-image: url("./Assets/yellow-web.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 22.62rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#our-partners {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 180%;
+    color: #052A4E;
+}
+
+.partnership p {
+    font-size: 1.25rem;
+    line-height: 180%;
+    color: #1E135E;
+}
+
+.partners {
+    margin-right: 10%;
+    width: 25rem;
+}
+
+.techM-reddys {
+    display: flex;
+}
+
+.companies p {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.43rem;
+    color: #052A4E;
+    text-align: center;
+}
+
+.companies-img-1 {
+    background-image: url("./Assets/companies-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 28rem;
+}
+
+.how-it-works>p:first-child {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.43rem;
+    color: #052A4E;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.cards-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 2.75rem 1.5rem;
+    width: 14rem;
+    height: 14rem;
+}
+
+.card-text-1 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #052A4E;
+}
+
+.card-text-2 {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #413F4E;
+}
+
+.news>p:first-child {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.43rem;
+    color: #052A4E;
+    text-align: center;
+}
+
+.news>p:nth-child(2) {
+    font-size: 1.25rem;
+    line-height: 180%;
+    text-align: center;
+    color: #052A4E;
+    margin-bottom: 1rem;
+}
+
+.news-cards-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 17rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news-card-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 11rem;
+}
+
+.news-card-bg-1 {
+    background-image: url("./Assets/news-img-1.png");
+}
+
+.news-card-bg-2 {
+    background-image: url("./Assets/news-img-2.png");
+}
+
+.news-card-bg-3 {
+    background-image: url("./Assets/news-img-3.png");
+}
+
+.news-card-bg-4 {
+    background-image: url("./Assets/news-img-4.png");
+}
+
+.news-card-text {
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 180%;
+    color: #052A4E;
+}
+
+.news-paper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.news-paper,
+.news-card-text {
+    padding-left: 0.5rem;
+}
+
+.news-paper>div:first-child {
+    font-size: 0.75rem;
+    line-height: 180%;
+    color: #413F4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us {
+    background-color: #002287;
+    min-height: 30rem;
+    padding: 2rem 6.25rem;
+}
+
+.contact-us-imgs-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-us>p:first-child {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.43rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact-us-imgs-1,
+.contact-us-imgs-2,
+.contact-us-imgs-3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 8rem;
+    min-width: 15.125rem;
+}
+
+.contact-us-imgs-1 {
+    background-image: url("./Assets/share-enquiry.png");
+}
+
+.contact-us-imgs-2 {
+    background-image: url("./Assets/download-brochure.png");
+}
+
+.contact-us-imgs-3 {
+    background-image: url("./Assets/request-call-back.png");
+}
+
+.form {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.form-input {
+    height: 3rem;
+    /* width: 26rem; */
+    width: 40%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: #4F67B1;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 180%;
+    color: #FFFFFF;
+    padding-left: 1%;
+    border: none;
+}
+
+.form-button {
+    text-align: center;
+
+}
+
+.form-button input {
+    text-align: center;
+    width: 15.5rem;
+    height: 3.5rem;
+    border-radius: 3.31rem;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #FFFFFF;
+    background-color: #1588EE;
+    border: none;
+}
+
+#footer {
+    height: 80px;
+    background: #001B78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+//mobile view
+
+@media (max-width:571px) {
+    .container {
+        padding: 1.5rem 1rem;
+    }
+
+    .byjus-logo img {
+        width: 108.31px;
+        height: 32px;
+    }
+
+    /* 
+    .human-resource p,
+    div,
+    hr {
+        margin-bottom: 0.5rem;
+    } */
+
+    .human-resource>p:first-child {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+
+    }
+
+    .human-resource>p:nth-child(2) {
+        font-size: 0.875rem;
+        line-height: 1.56rem;
+    }
+
+    .branches div {
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+
+    .CS-imgs div img {
+        width: 9.75rem;
+        height: 3.75rem;
+    }
+
+    .human-resource>p:nth-child(6) {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+
+    .human-resource>p:nth-child(7) {
+        font-size: 0.875rem;
+        line-height: 1.56rem;
+    }
+
+    .tech-project,
+    .core-project {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tech-project-img,
+    .core-project-img {
+        min-width: 0rem;
+        min-height: 11.06rem;
+    }
+
+    .core-project-img {
+        background-image: url("./Assets/core-project-mobile.png");
+    }
+
+    .tech-project-img {
+        background-image: url("./Assets/tech-project-mobile.png");
+    }
+
+
+    .core-project-text>p:first-child,
+    .tech-project-text>p:first-child {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+
+    .core-project-text>p:nth-child(2),
+    .tech-project-text>p:nth-child(2) {
+        font-size: 0.875rem;
+        line-height: 1.56rem;
+    }
+
+    .tech-core-project img {
+        width: 12.18rem;
+        height: 20.5rem;
+    }
+
+    .tech-project-img {
+        order: 2;
+    }
+
+    .tech-project-text {
+        order: 1;
+    }
+
+
+    .partnership {
+        background-image: url("./Assets/yellow-bg-mobile\ \(2\).png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 20.5rem;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .partners {
+        text-align: center;
+    }
+
+    #our-partners {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 180%;
+        color: #052A4E;
+    }
+
+    .techM-reddys img {
+        height: 3.5rem;
+        width: 9.62rem;
+    }
+
+    .partnership p {
+        font-size: 0.875rem;
+        line-height: 180%;
+        color: #1E135E;
+    }
+
+    .partners {
+        margin-right: 10%;
+        width: 25rem;
+    }
+
+    .techM-reddys {
+        display: flex;
+    }
+
+    .companies-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .companies-img-1 {
+        background-image: url("./Assets/placement-img-mobile-1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        min-height: 25rem;
+    }
+
+    .companies-img-2 {
+        background-image: url("./Assets/placement-img-mobile-2.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        min-height: 25rem;
+    }
+
+    .cards {
+        width: auto;
+    }
+
+
+    .cards-div {
+        display: block;
+    }
+
+    .news-cards-div {
+        display: block;
+    }
+
+    .news-card {
+        width: auto;
+    }
+
+    .contact-us {
+        background-color: #002287;
+        min-height: 30rem;
+        padding: 1rem 0rem;
+    }
+
+    .contact-us-imgs-div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-us>p:first-child {
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 2.43rem;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+
+    .contact-us-imgs-1,
+    .contact-us-imgs-2,
+    .contact-us-imgs-3 {
+        min-height: 5.62rem;
+        min-width: 6.5rem;
+    }
+
+    .contact-us-imgs-1 {
+        background-image: url("./Assets/share-enquiry-mobile.png");
+    }
+
+    .contact-us-imgs-2 {
+        background-image: url("./Assets/download-mobile.png");
+    }
+
+    .contact-us-imgs-3 {
+        background-image: url("./Assets/request-mobile.png");
+    }
+
+
+    .form {
+        text-align: center;
+        border: 2px solid red;
+    }
+
+    .form-input {
+        height: 3rem;
+        /* width: 26rem; */
+        width: 90%;
+        margin-right: 0rem;
+    }
+
+    .form-button input {
+        text-align: center;
+        width: 90%;
+        height: 3rem;
+        border-radius: 3.31rem;
+        font-weight: 600;
+        font-size: 1.125rem;
+        line-height: 150%;
+        color: #FFFFFF;
+        background-color: #1588EE;
+        border: none;
+    }
+
+    #footer {
+        height: 56px;
+    }
+}
