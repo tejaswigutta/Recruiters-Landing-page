@@ -541,11 +541,6 @@ hr {
         width:50%;
     }
 
-    .cards {
-        width: auto;
-    }
-
-
     .cards-div {
         display: block;
     }
@@ -554,8 +549,9 @@ hr {
         display: block;
     }
 
-    .news-card {
+    .news-card,.cards {
         width: auto;
+        margin-bottom: 0.5rem;
     }
 
     .contact-us {
