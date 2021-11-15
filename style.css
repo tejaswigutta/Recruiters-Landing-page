@@ -511,7 +511,7 @@ hr {
     }
 
     .techM-reddys {
-        display: flex;
+        justify-content: space-between;
     }
 
     .companies-img {
