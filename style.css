@@ -527,6 +527,7 @@ hr {
         background-size: contain;
         background-position: center;
         min-height: 25rem;
+        width:50%;
     }
 
     .companies-img-2 {
@@ -535,6 +536,7 @@ hr {
         background-size: contain;
         background-position: center;
         min-height: 25rem;
+        width:50%;
     }
 
     .cards {
