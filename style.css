@@ -545,14 +545,14 @@ hr{
 
     .banner-1-2-1 {
         display: flex;
-        justify-content: space-around;
-        margin-right: 2rem;
+        justify-content: initial;
+        margin-right: 0rem;
         margin-bottom: 1rem;
-        border: 2px solid red;
+        min-width:9.625rem;
     }
 
     .banner-1-2-1-img {
-        margin-right: 0.5rem;
+        margin-right: 0rem;
     }
 
     .banner-1-2-1-p {
@@ -560,7 +560,7 @@ hr{
     }
 
     .banner-1-2-1-1 {
-        margin-right: 4rem;
+        /* margin-right: 4rem; */
     }
 
     .banner-2 {
@@ -594,7 +594,7 @@ hr{
     }
 
     .banner-2-2-1{
-        margin-right: 3rem;
+        min-width: 8.62rem;
     }
 
     .banner-2-2-1-p>p:first-child {
@@ -816,7 +816,6 @@ hr{
 
     .form {
         text-align: center;
-        border: 2px solid red;
     }
 
     .form-input {
