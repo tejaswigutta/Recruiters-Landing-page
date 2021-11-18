@@ -737,8 +737,8 @@ hr{
         justify-content: space-between;
     }
 
-    .tech-mahindra {
-        margin-right: 3px;
+    .tech-mahindra,.reddys {
+        width:38%;
     }
 
     .companies-img {
