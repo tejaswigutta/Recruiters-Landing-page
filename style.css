@@ -265,12 +265,13 @@ hr{
 
 .partners {
     margin-right: 10%;
-    width: 25rem;
+    /* width: 25rem; */
 }
 
 
 .techM-reddys {
     display: flex;
+    justify-content: space-between;
 }
 
 .companies p {
