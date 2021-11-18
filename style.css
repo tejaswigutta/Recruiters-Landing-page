@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
-   
+
 }
 
 .container {
@@ -15,11 +15,15 @@ hr {
     margin-bottom: 1rem;
 } */
 
-hr{
+.human-resource p {
+    margin-bottom: 0.5rem;
+}
+
+hr {
     margin-bottom: 2rem;
 }
 
-.CS-imgs{
+.CS-imgs {
     margin-bottom: 4rem;
 }
 
@@ -41,8 +45,7 @@ hr{
     background-repeat: no-repeat;
     text-align: center;
     opacity: 0.9;
-    /* background: #000F30; */
-    position:relative;
+    position: relative;
 }
 
 .banner-2 {
@@ -56,7 +59,7 @@ hr{
     width: 100%;
     height: 15rem;
     /* left: 12.8rem; */
-    left:15%;
+    left: 15%;
     box-shadow: 4px 4px 16px rgba(17, 121, 239, 0.1);
     border-radius: 1rem;
     /* padding: 3.75rem 6.25rem; */
@@ -554,7 +557,7 @@ hr{
         justify-content: initial;
         margin-right: 0rem;
         margin-bottom: 1rem;
-        min-width:9.625rem;
+        min-width: 9.625rem;
     }
 
     .banner-1-2-1-img {
@@ -577,12 +580,12 @@ hr{
         top: 30rem;
         /* max-width: 17.19rem; */
         min-width: 91.2%;
-        width:91.2%;
+        width: 91.2%;
         height: auto;
         left: 4.44%;
         /* padding: 3.75rem 6.25rem; */
         text-align: center;
-        padding-top:1rem;
+        padding-top: 1rem;
         padding-bottom: 1rem;
     }
 
@@ -592,14 +595,14 @@ hr{
         margin-bottom: 0.5rem;
     }
 
-    .banner-2-2{
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
+    .banner-2-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
-    .banner-2-2-1{
+    .banner-2-2-1 {
         min-width: 8.62rem;
     }
 
@@ -615,11 +618,8 @@ hr{
     }
 
     .human-resource {
-        padding-top: 12rem;
+        padding-top: 9rem;
     }
-
-
-
 
     .human-resource>p:first-child {
         font-size: 1.125rem;
@@ -698,7 +698,6 @@ hr{
         order: 1;
     }
 
-
     .partnership {
         background-image: url("./Assets/yellow-bg-mobile\ \(2\).png");
         background-position: center;
@@ -738,8 +737,9 @@ hr{
         justify-content: space-between;
     }
 
-    .tech-mahindra,.reddys {
-        width:38%;
+    .tech-mahindra,
+    .reddys {
+        width: 38%;
     }
 
     .companies-img {
@@ -798,7 +798,6 @@ hr{
         text-align: center;
         margin-bottom: 1rem;
     }
-
 
     .contact-us-imgs-1,
     .contact-us-imgs-2,
