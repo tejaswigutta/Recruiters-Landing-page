@@ -242,11 +242,12 @@ hr{
     background-image: url("./Assets/yellow-web.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     min-height: 22.62rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 #our-partners {
