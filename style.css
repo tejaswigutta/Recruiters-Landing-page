@@ -272,6 +272,7 @@ hr{
 .techM-reddys {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .companies p {
@@ -738,7 +739,7 @@ hr{
     }
 
     .tech-mahindra,.reddys {
-        width:35%;
+        width:38%;
     }
 
     .companies-img {
